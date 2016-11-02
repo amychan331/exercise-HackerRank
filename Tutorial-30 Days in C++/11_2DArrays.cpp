@@ -6,7 +6,7 @@ A 6 X 6 grid of integers is stored to a multidimensional array. Find the maximum
 @author Amy Yuen Ying Chan
 ** --------------------------------------------------------------------------- */
 
-## Pre-defined Code by Hacker Rank
+/* Pre-defined Code by Hacker Rank */
 
 #include <map>
 #include <set>
@@ -31,7 +31,6 @@ A 6 X 6 grid of integers is stored to a multidimensional array. Find the maximum
 #include <algorithm>
 using namespace std;
 
-
 int main(){
     vector< vector<int> > arr(6,vector<int>(6));
     for(int arr_i = 0;arr_i < 6;arr_i++){
@@ -40,7 +39,7 @@ int main(){
        }
     }
     
-    ## My Solution
+/* My solution */
     int max = -(9*7); // Lowest number of sum that the hourglass can get
     int sum = 0;
     for (int i = 0; i < 4; ++i) {
@@ -55,7 +54,6 @@ int main(){
         }
     }
     cout << max;
-                
                 
     return 0;
 }
