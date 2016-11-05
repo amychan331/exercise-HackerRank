@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# nested.list.py
+# nested_list.py
 """Hacker Rank: Python Domain - Nested List
 
 Given number of students and their names & grades as input, store them 
